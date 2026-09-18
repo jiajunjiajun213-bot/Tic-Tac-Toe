@@ -1,1 +1,25 @@
-# Tic-Tac-Toe
+
+.container , .divRow , .divColumn{
+
+    border:1px solid black;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    height:70vh;
+    width:70vw;
+
+}
+.divRow{
+    display:flex;
+    height:100%;
+    width:100%;
+}
+.divColumn{
+    height:100%;
+    width:100%;
+}
+.winner{
+    height:100px;
+    width:200px
+}
